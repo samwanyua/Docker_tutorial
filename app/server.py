@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # loading pre-trained model
-model = joblib.load('model.joblib')
+model = joblib.load('app/model.joblib')
 # define classnames
 class_names = np.array(['setosa', 'versicolor', 'virginica'])
 
